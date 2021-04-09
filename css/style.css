@@ -26,6 +26,9 @@
 *{
   font-family: 'Avenir Next', Times, serif;
 }
+/* html{
+  position: absolute;
+} */
 
 h1{
   font-size: 27.34px;
@@ -113,7 +116,7 @@ figure{
   text-decoration: none;
 }
 .title{
-  margin: 50px;
+  margin: 50px 0;
 }
 .title__image{
   text-align: center;
@@ -182,8 +185,30 @@ main{
 .slider__slide img{
   border-radius: 5px;
 }
+footer{
+  padding: 9px 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: var(--color-black);
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer a{
+  text-decoration: none;
+  text-align: center;
 
 }
-footer{
-  border: 1px solid red;
+footer span{
+  font-size: 8px;
+  color: var(--color-grey);
+}
+footer span:first-child{
+  font-size: 27px;
+}
+span{
+  display: block;
 }
